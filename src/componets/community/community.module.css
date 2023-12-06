@@ -1,0 +1,40 @@
+.wrapper {
+    background: #151515;
+}
+.inner {
+    display: flex;
+    padding-top: 105px ;
+    padding-bottom: 98px;
+}
+.left {
+    margin-right: 192px;
+}
+.left h2 {
+    width: 518px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+.left Button {
+    margin-bottom: 24px;
+}
+.text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: -0.011em;
+    color: #FFFFFF;
+    opacity: 0.8;
+    width: 518px;
+    margin: 38px 0 52px 0;
+}
+.right {
+    background-image: url("../../images/backg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 487px;
+
+}
+

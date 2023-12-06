@@ -1,0 +1,126 @@
+body.active-modal {
+    overflow-y: hidden;
+}
+.block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.btn-modal {
+    padding: 10px 20px;
+    display: block;
+    margin: 100px auto 0;
+    font-size: 18px;
+}
+
+.modal, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(49,49,49,0.8);
+}
+.modal-content {
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 27px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    padding: 14px 28px;
+    max-width: 600px;
+    min-width: 300px;
+    width: 486px;
+    height: 500px;
+
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+   padding-right: 10px;
+    cursor: pointer;
+    color: black;
+
+    font-size: 30px ;
+}
+.modal-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first_line {
+    display: flex;
+    margin-top: 43px;
+    flex-direction: column;
+}
+
+.first_line h3 {
+    font-weight: 400;
+    font-size: 12.3317px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+
+    color: #000000;
+
+    opacity: 0.5;
+    margin-bottom: 18px;
+}
+.input-email {
+    width: 353px;
+    height: 48px;
+    background: #F9FAFF;
+    border: 0.770732px solid #B4B4B7;
+    border-radius: 3.85366px;
+    color: black;
+    margin-top: 18px;
+}
+.input-name {
+    width: 165px;
+    height: 48px;
+    background: #F9FAFF;
+    border: 0.770732px solid #B4B4B7;
+    border-radius: 3.85366px;
+    color: black;
+}
+.first_line_one {
+
+}
+form h3 {
+    font-weight: 400;
+    font-size: 12.3317px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+
+    color: #000000;
+
+    opacity: 0.5;
+    margin-top: 18px;
+}
+.second-line {
+    margin: 18px 0 18px 0;
+}
+form Button {
+    margin-top: 32px;
+}
+.input-submit {
+    width: 354px;
+    height: 55px;
+    background: #E22B2B;
+    border-radius: 3.85366px;
+    margin-top: 10px;
+}
+.block{
+    margin-left: 30px;
+}

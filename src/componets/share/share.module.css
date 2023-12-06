@@ -1,0 +1,24 @@
+.wrapper {
+    background: #151515;
+}
+.inner {
+    display: flex;
+    padding: 140px 0 147px 0;
+    position: relative;
+}
+.left {
+    margin-right: 230px;
+}
+.second {
+    margin: 129px 0 154px 0;
+}
+.four {
+    margin-top: 215px;
+}
+.first {
+    margin-bottom: 198px;
+}
+.thrind {
+    margin: 152px 0 214px 0;
+}
+

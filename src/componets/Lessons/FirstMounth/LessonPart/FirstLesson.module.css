@@ -1,0 +1,28 @@
+.inner {
+    display: flex;
+}
+.left {
+    margin-right: 15px;
+}
+.left p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    /* or 153% */
+
+    letter-spacing: -0.011em;
+
+    color: #FFFFFF;
+
+    opacity: 0.8;
+}
+.left h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+
+    letter-spacing: -0.03em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #FFFFFF;
+}

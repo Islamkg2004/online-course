@@ -1,0 +1,80 @@
+
+
+.HowTo_inner {
+    display: flex;
+}
+
+.inner_left h2{
+    width: 518px;
+    height: 116px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: -0.03em;
+
+    color: #FFFFFF
+}
+.wrapper {
+    background: #151515;
+    padding-top: 80px ;
+}
+.text {
+    margin: 37px 0 58px 0;
+    width: 518px;
+    height: 115px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: -0.011em;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+.bottom {
+    display: flex;
+    margin-bottom: 60px;
+
+}
+.bottom ul {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.bottom li:nth-child(2) {
+    margin-left: 60px;
+    margin-bottom: 32px;
+}
+.bottom li:nth-child(1) {
+    margin-bottom: 32px;
+}
+.bottom li:nth-child(4) {
+    margin-left: 22px;
+}
+.bottom p {
+
+    height: 32px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    margin-left: 12px;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+
+}
+
+.right {
+    width: 487px;
+    margin-left: 191px;
+}
+
+
+
+

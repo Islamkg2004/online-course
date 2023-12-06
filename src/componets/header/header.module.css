@@ -1,0 +1,58 @@
+
+
+.header__inner, .main_inner {
+    position: relative;
+    z-index: 3;
+}
+
+.header {
+    padding: 140px 0 220px 0;
+}
+.header a {
+    width: 56px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.header span {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+
+    letter-spacing: -0.05em;
+
+    color: #FFFFFF;
+}
+.header__inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.header__inner ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style-type: none;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 0 333px 0 124px;
+}
+.header__inner ul :not(:last-child) {
+    margin-right: 60px;
+}
+.header__inner ul li :not(:last-of-type) {
+    margin-right: 60px;
+}
+.header__inner ul li a {
+    cursor: pointer;
+}
+

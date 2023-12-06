@@ -1,0 +1,52 @@
+.wrapper {
+    margin-top: 110px;
+    padding-bottom: 110px;
+}
+.inner {
+    display: flex;
+    justify-content: space-between;
+}
+.inner h2 {
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+}
+.name p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    width: 307px;
+    color: #FFFFFF;
+}
+.name:not(:last-child) {
+    margin-bottom: 25px;
+}
+.midle {
+    display: flex;
+    flex-direction: column;
+
+}
+.midle a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    width: 65px;
+    height: 24px;
+    margin-bottom: 15px;
+}
+.social a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    width: 65px;
+    height: 24px;
+    margin-bottom: 15px;
+}

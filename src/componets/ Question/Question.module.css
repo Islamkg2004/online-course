@@ -1,0 +1,33 @@
+.line {
+    width: 1196px;
+    height: 0;
+    border: 1px solid #FFFFFF;
+}
+.inner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.inner>h2  {
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: -1px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin: 47px 0 15px 0;
+
+}
+.inner>p {
+    width: 400px;
+    text-align: center;
+    height: 58px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    text-transform: capitalize;
+    color: rgba(196, 196, 196, 0.71);
+    margin-bottom: 48px;
+
+}

@@ -1,0 +1,47 @@
+.first  {
+display: flex;
+    align-items: center;
+
+}
+.inner h2 {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 114%;
+    /* or 27px */
+
+    letter-spacing: -0.055em;
+
+    color: #FFFFFF;
+
+}
+.line {
+    width: 1231px;
+    border: 1px solid #B0B0B0;
+    height: 0;
+    margin-bottom: 26px;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    width: 232px;
+    margin-right: 18px;
+}
+.item h3 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 119%;
+    /* or 21px */
+    margin-top: 10px;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+.item:not(:last-of-type) {
+    margin-right: 18px;
+}
+.item img  {
+    width: 232px;
+    height: 132px;
+    border-radius: 8px;
+}

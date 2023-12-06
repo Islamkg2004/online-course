@@ -1,0 +1,6 @@
+{
+  "serverPort" : 5000,
+
+  "dbUrl": "mongorestore --uri mongodb+srv://islam:<0709908035a>@cloud.r4trvkr.mongodb.net",
+  "secretKey": "mern-secket-key"
+}

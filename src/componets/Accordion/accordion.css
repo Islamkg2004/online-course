@@ -1,0 +1,54 @@
+
+.accordion-simple > .active {
+    display: block;
+}
+
+.accordion__faq .inactive{
+    display: none;
+}
+
+.accordion__faq > div{
+    width: 1200px;
+    height: 94px;
+    border: 1px solid #DDDDDD;
+    border-radius: 22px;
+    background-color: #151515 ;
+    margin-bottom: 20px;
+    padding: 0 15px 0 45px;
+    cursor: pointer;
+}
+
+.accordion__title{
+    color: white;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
+.accordion__faq-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ;
+}
+.accordion__faq-heading .active{
+    color: white;
+}
+
+.accordion__faq-heading h3{
+    color: white;
+    font-weight: 600;
+    margin-top: 32px;
+}
+
+.accordionp{
+    margin: 0;
+    padding-bottom: 30px;
+    color: white;
+    line-height: 1.4;
+    font-size: 15px;
+
+
+}
+span {
+    color: #FFFFFF;
+}
